@@ -30,3 +30,11 @@ print(msg)
 
 msg="welcome to python programming {name}".format(name=name)
 print(msg)
+
+a="hello"
+b="dheena"
+c="welcome to python world"
+print(a+" "+b+" "+c)
+
+d="{host}"
+print(a+"@"+d.format(host="google")+".com")
