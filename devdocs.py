@@ -1,2 +1,10 @@
 print('c:/dheena\name');
 print(r'C:/dheena\name');
+d=['dheena',['dhayalan'],'kaarthi']
+print(d)
+print(d[::-1])
+l=d.copy
+print(d)
+print(l)
+print(id(d))
+print(id(l))

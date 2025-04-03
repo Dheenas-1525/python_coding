@@ -1,0 +1,4 @@
+print('c:/dheena\name');
+print(r'C:/dheena\name');
+d='dheena'
+print(d[:3:-1)
