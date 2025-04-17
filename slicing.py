@@ -4,3 +4,7 @@ print(l[-1])
 d="hello world"
 print(d[1:5])
 print(d[::-1])
+c=l
+print(c)
+print(id(l))
+print(id(c))
