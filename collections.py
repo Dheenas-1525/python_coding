@@ -64,10 +64,25 @@ if l[1] in ['dheena']:
 	print("true")
 else:
 	print("false")
-
+l[1]='replaced word'
 print(l)
+n=[1,2,3,4,5]
+k=[6,7,8,9,10]
+print(n+k)
 '''secong is tuple is sames as list but tuple is used brackets instead of using square brackets and also consider tuple is consider as immutable datatype
 so there is not avaiable of curd fucntions like pop delete and append in tuple and also create tuple for single using common after values because python is strongly connected with bodmass rule '''
 #syntax of tuple is :
 t=tuple()
 print(t)
+t=('dheena','dhayalan','sub','raja')
+print(t)
+#t[1]="dhayalanaa"
+#print(t) this is the example tuple cant changes the values so its called as immutable 
+#there is function is packing and unpacking in python!
+"""next one is dictionay in collections """
+#syntax in dict is:
+d={'name':'dheena','age':'25','country':'india'}
+print(type(d))
+print(d)
+c={}
+print(c)
