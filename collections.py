@@ -86,3 +86,35 @@ print(type(d))
 print(d)
 c={}
 print(c)
+
+thisdict =	{
+  "brand": "Ford",
+  "electric": False,
+  "year": 1964,
+  "colors": ["red", "white", "blue"]
+}
+print(thisdict)
+
+
+thisdict =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 2022,
+  "year": 2020,
+  "name":'dheena'
+}
+print(thisdict)
+#so next one is set  is also sames as dictionary but duplicate not possible 
+#syntax
+es=set()
+print(es)
+es={1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9}
+print(es)
+es={1,2,3,4,5,6,7,8,9}
+es1={9,8,7,6,5,4,3,2,1}
+print(es & es1)
+print(es | es1)
+if es(6) in ['7']:
+	print("true")
+else:
+	print("false")
