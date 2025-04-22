@@ -31,8 +31,15 @@ else:
 	print("im from else")
 while a != b:
 	a=b
-	if a ==b:
+	if a == b:
 		print("im from if a value assigned to b")
 		break
 else:
 	print("while block not working something went wrong....check the code..")
+
+name = input("enter your name\n")
+while len(name) == 10:
+	print("welcome to this magic world {name}".format(name=name))
+	break
+else:
+	print("Enter your name with in ten characters")
