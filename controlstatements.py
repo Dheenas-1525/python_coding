@@ -26,7 +26,7 @@ dont bug anything
 this is how sudo code works in python if else control statements.."""
 #sample code:
 #store=['milk','vegitables','eggs']
-store=[]
+store=['vegitables']
 if 'milk' in store:
 	print("buy milk")
 elif 'eggs' in store:
