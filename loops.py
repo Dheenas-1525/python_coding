@@ -51,3 +51,12 @@ name1=input("enter your name\n")
 for i in range(len(name1)):
 	print("#{},words {}".format(i,name1[i]))
 print(i)
+
+f=['dheena','karthi','arun','senthil']
+print(f[0])
+print(f[1])
+for i in range(len(f)):
+	# print(i)
+	print("#{} name:{}".format(i, f[i]))
+	# print("#{}".format(i,f[i]))
+    
