@@ -82,5 +82,10 @@ for d in range(0,100):
         break
 print("loop exited")
 
+'''pending to workout is break and contionue and enumeration....next will see exception handling and file handling
+exception handling to see try exception else and finally
+file handling  homework try to write files..
+'''
+
 """thats all about the loops"""
 
