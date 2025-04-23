@@ -39,7 +39,15 @@ else:
 
 name = input("enter your name\n")
 while len(name) == 10:
-	print("welcome to this magic world {name}".format(name=name))
+	print("welcome! to this magic world {name}".format(name=name))
 	break
 else:
 	print("Enter your name with in ten characters")
+'''Next one is for loop for is iteraable and structured one using in python'''
+# for i in range(0,1000):
+# 	print(i)
+ 
+name1=input("enter your name\n")
+for i in range(len(name1)):
+	print("#{},words {}".format(i,name1[i]))
+print(i)
