@@ -91,7 +91,7 @@ print("this print in from odd number")
 
 g=['dheena','subraja','arun']
 for i in list(g):
-    if i == 'dheena':
+    if i == 'arun':
         continue
     else:
         print(i)
@@ -102,4 +102,14 @@ file handling  homework try to write files..
 '''
 
 """thats all about the loops"""
+
+'''enumeration is also like that dictionary like that
+packing and unpacking method like giving or assign the index of
+values'''
+
+#syntx of enumeration :
+em=['a','b','c']
+for i in enumerate(em):
+	print("#{} {}".format(i,i))
+
 
