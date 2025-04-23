@@ -89,6 +89,13 @@ for c in range(10,100):
         print(c)
 print("this print in from odd number")
 
+g=['dheena','subraja','arun']
+for i in list(g):
+    if i == 'dheena':
+        continue
+    else:
+        print(i)
+
 '''pending to workout is break and contionue and enumeration....next will see exception handling and file handling
 exception handling to see try exception else and finally
 file handling  homework try to write files..
