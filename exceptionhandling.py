@@ -5,3 +5,20 @@ there are four type of errror
 2)exception
 3)else
 4)finally these are that four types exception handling in python '''
+
+#first one is try:
+a=10
+b=20
+# try:
+#     if(a == b):
+#         print("hi im from try it working succesfully..")
+# except:
+#     print("something wrong...!")
+try:
+    result = a / 0   # Division by zero causes an error
+    print(result)
+except:
+    print("something wrong...!")  # This will run
+
+finally:
+    print("this print wll show output anyway if error occur or error...")
