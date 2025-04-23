@@ -82,6 +82,13 @@ for d in range(0,100):
         break
 print("loop exited")
 
+for c in range(10,100):
+    if c % 2 == 0:
+        continue
+    else:
+        print(c)
+print("this print in from odd number")
+
 '''pending to workout is break and contionue and enumeration....next will see exception handling and file handling
 exception handling to see try exception else and finally
 file handling  homework try to write files..
