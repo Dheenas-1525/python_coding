@@ -59,4 +59,28 @@ for i in range(len(f)):
 	# print(i)
 	print("#{} name:{}".format(i, f[i]))
 	# print("#{}".format(i,f[i]))
-    
+
+# name2=input("enter ur name")
+# for i in range(0,10):
+#     print(name2)
+names=[]
+for i in range(10):
+    name=input("enter name{}: ".format(i+1))
+    names.append(name)
+print("list of Names...!")
+for i in range(10):
+    print("index {}: {}".format(i,names[i]))
+
+l=['apple','orange','mongo']
+for v in l:
+    print(v)
+
+'''next using break statements loops in python'''
+for d in range(0,100):
+    print(d)
+    if d>60:
+        break
+print("loop exited")
+
+"""thats all about the loops"""
+
