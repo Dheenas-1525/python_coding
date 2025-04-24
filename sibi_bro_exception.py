@@ -9,7 +9,8 @@ def divide(a,b):
         raise Exception("cannot divide by zero")
     return a+b
 try:
-    c = divide(5,5)
+    c = divide(5,b[5])
+    raise Exception("chumma oru error")
     print("value of c is : {}".format(c))
 except NameError as e:
     print("name error happend : {}".format(e))
