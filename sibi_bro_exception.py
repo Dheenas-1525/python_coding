@@ -1,4 +1,5 @@
 #this code is used in class videos
+'''exception handling use to  handling the error in run time errors..'''
 import sys
 a = 10
 b = [1,2,3,4]
@@ -10,17 +11,19 @@ def divide(a,b):
     return a+b
 try:
     c = divide(5,b[5])
-    raise Exception("chumma oru error")
     print("value of c is : {}".format(c))
 except NameError as e:
     print("name error happend : {}".format(e))
+    pass
     # print(e)
 except IndexError as e:
     print("index error happend : {}".format(e))
     # print(e)
+    pass
 except Exception as e:
     print("something else : {}".format(e))
     print("error: {} ".format(sys.exc_info()))
+    pass
 else: 
     print("all good at this point")
 finally:
