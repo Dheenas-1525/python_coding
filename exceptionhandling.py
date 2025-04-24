@@ -14,9 +14,13 @@ b=20
 #         print("hi im from try it working succesfully..")
 # except:
 #     print("something wrong...!")
+
+
+a=10
+b=30
 try:
-    result = a / 0   # Division by zero causes an error
-    print(result)
+#  c=a+b   # Division by zero causes an error
+   print(c)
 except:
     print("something wrong...!")  # This will run
 
