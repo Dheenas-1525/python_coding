@@ -20,11 +20,14 @@ print("division of maths : {} ".format(division))
 try:
     with open("test.txt",'w') as file:
         # file.write("apo in try python only write str object ...")
+        file.write("===============================================\n")
+        file.write("this msg from try area in simple_calculator program")
         file.write("Basic maths result is {} and {}\n".format(a, b))
         file.write("Addition of maths: {}\n".format(add))
         file.write("Subtraction of maths: {}\n".format(sub))
         file.write("Multiplication of maths: {}\n".format(multi))
         file.write("Division of maths: {}\n".format(division))
+        file.write("=====================================================")
 except NameError as d:
     print("something else in try pls check that code ... {}".format(d))
 else:
