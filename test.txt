@@ -1,0 +1,5 @@
+Basic maths result is 30 and 50
+Addition of maths: 80
+Subtraction of maths: -20
+Multiplication of maths: 1500
+Division of maths: 0.6
