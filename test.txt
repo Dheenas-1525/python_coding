@@ -1,7 +1,7 @@
 ===============================================
-this msg from try area in simple_calculator programBasic maths result is 30 and 50
-Addition of maths: 80
-Subtraction of maths: -20
-Multiplication of maths: 1500
-Division of maths: 0.6
+this msg from try area in simple_calculator programBasic maths result is 30 and 40
+Addition of maths: 70
+Subtraction of maths: -10
+Multiplication of maths: 1200
+Division of maths: 0.75
 =====================================================

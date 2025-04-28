@@ -37,12 +37,12 @@ print(a, b, c, portflio(a, b, c))
 
 
 
-def portflio(name, age, address)
-	d = {
-	     "name": name,
-             "age": age,
-             "address": address
-	     }
-	     print(d)
-	     return d
-user1 = input("enter your  name age address"
+# def portflio(name, age, address)
+# 	d = {
+# 	     "name": name,
+#              "age": age,
+#              "address": address
+# 	     }
+# 	     print(d)
+# 	     return d
+# user1 = input("enter your  name age address"
