@@ -13,7 +13,11 @@ def set_global_x(num):
 set_local_x(50)
 #print("this x from set_local_x : {} ".format(x))
 print(x)
-set_global_x(45)
+print(x)
+set_global_x(55)
 #print("this x from set_global_x : {}".format(x))
 print(x)
+print(x)
+
+
 
