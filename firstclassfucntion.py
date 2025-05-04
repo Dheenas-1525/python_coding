@@ -15,3 +15,8 @@ def create_sub(y):
     return sub
 sub_40 = create_sub(30)
 print(sub_40(100))
+
+x = 5
+y = 4
+print(lambda x: x>3, x)
+print(map(x,y))
