@@ -7,3 +7,11 @@ def create_adder(x):
     return adder
 add_40 =create_adder(10)
 print(add_40(100))
+
+
+def create_sub(y):
+    def sub(z):
+	    return y-z
+    return sub
+sub_40 = create_sub(30)
+print(sub_40(100))
